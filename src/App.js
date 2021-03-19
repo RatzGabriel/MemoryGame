@@ -142,6 +142,7 @@ const App = () => {
     if (counter > highScore) {
       higher();
     }
+    setclickedImg(imageDB);
   };
 
   const updateImages = (e) => {
